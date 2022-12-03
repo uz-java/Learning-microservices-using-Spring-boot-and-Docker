@@ -141,3 +141,4 @@ fabric.properties
 /order-service/order-service.iml
 /product-service/product-service.iml
 /.idea/vcs.xml
+/.idea/dataSources.xml
