@@ -142,3 +142,4 @@ fabric.properties
 /product-service/product-service.iml
 /.idea/vcs.xml
 /.idea/dataSources.xml
+/inventory-service/inventory-service.iml

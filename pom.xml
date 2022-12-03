@@ -18,8 +18,8 @@
     <modules>
         <module>product-service</module>
         <module>order-service</module>
-        <!--  <module>inventory-service</module>
-          <module>discovery-server</module>
+          <module>inventory-service</module>
+         <!-- <module>discovery-server</module>
           <module>api-gateway</module>
           <module>notification-service</module>-->
     </modules>
@@ -32,13 +32,13 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--          <dependency>
-                          <groupId>org.testcontainers</groupId>
-                          <artifactId>testcontainers-bom</artifactId>
-                          <version>1.16.3</version>
-                          <type>pom</type>
-                          <scope>import</scope>
-                      </dependency>-->
+           <!-- <dependency>
+                <groupId>org.testcontainers</groupId>
+                <artifactId>testcontainers-bom</artifactId>
+                <version>1.16.3</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>-->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -63,17 +63,19 @@
                     </excludes>
                 </configuration>
             </plugin>
-            <plugin>
+          <!--  <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
                 <version>3.2.1</version>
-                <!--                <configuration>
-                                    <from>
-                                        <image>eclipse-temurin:17.0.4.1_1-jre</image>
-                                    </from>
-                                    <to><image>registry.hub.docker.com/saiupadhyayula007/${artifactId}</image></to>
-                                </configuration>-->
-            </plugin>
+                <configuration>
+                    <from>
+                        <image>eclipse-temurin:17.0.4.1_1-jre</image>
+                    </from>
+                    <to>
+                        <image>registry.hub.docker.com/saiupadhyayula007/${artifactId}</image>
+                    </to>
+                </configuration>
+            </plugin>-->
         </plugins>
     </build>
 </project>
