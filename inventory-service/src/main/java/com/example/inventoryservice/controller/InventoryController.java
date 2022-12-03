@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class InventoryController {
     private final InventoryService inventoryService;
+
     @GetMapping("/{sku-code}")
     @ResponseStatus(HttpStatus.OK)
     public boolean isInStock(@PathVariable("sku-code") String skuCode){
