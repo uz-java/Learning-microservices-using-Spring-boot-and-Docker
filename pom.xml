@@ -18,7 +18,7 @@
     <modules>
         <module>product-service</module>
         <module>order-service</module>
-          <module>inventory-service</module>
+        <module>inventory-service</module>
          <!-- <module>discovery-server</module>
           <module>api-gateway</module>
           <module>notification-service</module>-->
@@ -63,7 +63,7 @@
                     </excludes>
                 </configuration>
             </plugin>
-          <!--  <plugin>
+            <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
                 <version>3.2.1</version>
@@ -75,7 +75,7 @@
                         <image>registry.hub.docker.com/saiupadhyayula007/${artifactId}</image>
                     </to>
                 </configuration>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 </project>
