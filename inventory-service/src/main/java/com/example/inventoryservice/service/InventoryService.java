@@ -1,7 +1,6 @@
 package com.example.inventoryservice.service;
 
 import com.example.inventoryservice.dto.InventoryResponse;
-import com.example.inventoryservice.model.Inventory;
 import com.example.inventoryservice.repository.InventoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

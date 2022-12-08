@@ -1,16 +1,8 @@
 package com.example.inventoryservice;
 
-import com.example.inventoryservice.model.Inventory;
-import com.example.inventoryservice.repository.InventoryRepository;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.context.annotation.Bean;
-
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Vector;
 
 @SpringBootApplication
 @EnableEurekaClient
