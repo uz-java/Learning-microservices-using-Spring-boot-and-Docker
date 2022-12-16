@@ -1,5 +1,5 @@
 # Learning microservices using Spring boot and Docker.
 
 ## api-gateway
-## oauth2
+## oauth2-resource-server
 ## netflix-eureka-server
