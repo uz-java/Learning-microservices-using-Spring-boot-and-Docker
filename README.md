@@ -2,3 +2,4 @@
 
 ## api-gateway
 ## oauth2
+## netflix-eureka-server
