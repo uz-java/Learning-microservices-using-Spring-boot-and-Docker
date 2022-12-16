@@ -4,3 +4,4 @@
 ## oauth2-resource-server
 ## netflix-eureka-server
 ## circuitbreaker-resilience4j
+## spring-boot-starter-actuator
