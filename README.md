@@ -5,9 +5,10 @@
 ## netflix-eureka-server
 ## circuitbreaker-resilience4j
 ## webflux
+## sleuth-zipkin
 ## spring-cloud-starter-openfeign
 ## spring-boot-starter-actuator
-## docker + mongodb
+## docker + mongodb + oauth2 + zipkin
 
     <modules>
         <module>product-service</module>
