@@ -5,6 +5,7 @@
 ## netflix-eureka-server
 ## circuitbreaker-resilience4j
 ## webflux
+## kafka
 ## sleuth-zipkin
 ## spring-cloud-starter-openfeign
 ## spring-boot-starter-actuator
